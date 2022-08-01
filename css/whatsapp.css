@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;700&display=swap');
+
+
+
+*{
+ padding: 0;
+ margin: 0;
+ 
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    border: solid 5px black;
+    background: url(https://cdn.images.express.co.uk/img/dynamic/59/590x/secondary/WhatsApp-allows-for-instant-messaging-to-anyone-anywhere-in-the-world-1473584.jpg?r=1534966640777);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-content:center;
+    align-items: center;
+}
+
+.contacto{
+    width: 400px;
+    height: 400px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+   
+}
+
+p{
+  font-size: 1.7em;
+  font-family:'Oswald', sans-serif;
+  margin-left: 40px;
+  text-transform: uppercase;
+  color:white;
+
+  
+}
+
+span{
+    margin-left: 70px;
+    font-weight: 700;
+}
+.numero{
+    font-size: 2.5em;
+    margin-right: 80px;
+
+}
+
+.titulo{
+    font-size: 1.5em;
+}
+

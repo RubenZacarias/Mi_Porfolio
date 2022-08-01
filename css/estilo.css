@@ -1,0 +1,596 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@300;400&display=swap');
+
+*{
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+ text-decoration: none;
+ list-style: none;
+ 
+ font-family: 'Bitter', serif;
+
+}
+
+
+nav{
+    display: flex;
+    background: white;
+    height: 35px;
+    width: 100vw;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+   
+    
+}
+
+nav ul li{
+    display: inline-block;
+    margin-left: 15px;
+    font-size: 0.9em;
+    max-width: max-content;
+   
+}
+.nombre-nav{
+    width: max-content;
+    font-size: 1em;
+}
+
+.iconos{
+
+ display: flex;
+    margin-right: 100px;
+  font-size: 1em;
+  color: black !important;
+ 
+}
+#icons{
+    color: black;
+}
+
+.redes{
+    margin: 8px;
+}
+
+#menu{
+    position: fixed;
+
+}
+
+.noche{
+    width: 25px;
+    height: auto;
+    color: black;
+    background: transparent;
+    border: none;
+    font-size: 1.5em;
+}
+
+.nocturno{
+    background-color: black;
+    color: grey;
+}
+
+h4{
+    margin-left: 100px;
+    font-weight: 700;
+    font-size: 1.7em;
+    word-spacing: 10px;
+}
+
+.foto{
+    display: flex;
+    width: 250px;
+    height: 250px;
+   background:url(https://media-exp1.licdn.com/dms/image/C4D03AQEnax230GV7vQ/profile-displayphoto-shrink_200_200/0/1657311228843?e=1662595200&v=beta&t=JOe-LY4cmMEbbdrJmpaVw9WM63_UisBWrm938X5paQc);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   margin-right: 100px;
+  
+   
+}
+
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 105vw;
+    height: 100%;
+    background-color: rgb(219, 219, 86);
+    padding: 8px;
+    padding-top: 50px;
+    min-height: 100%;
+   
+}
+
+.foto{
+    border: 7px solid white;
+    border-radius: 130px;
+}
+
+h1{
+    font-size: 4.5em;
+    font-family: 'Bitter', serif;
+    font-weight: 100;
+    margin-bottom: 5px;
+   
+}
+
+.developer{
+    font-weight: 750;
+    border-right: 10px solid rgb(210, 204, 101);
+    padding-right: 10px;
+}
+
+#trabajos{
+      color:white;
+      background-color: brown;
+      padding: 3px 6px;
+      width: 130px;
+      margin-top: 5px;
+      border: none;
+      font-size: 0.9em;
+
+
+}
+
+#trabajos:hover{
+    color: black;
+    background-color: grey;
+    border: none;
+}
+
+#contacto{
+    color: black;
+    background: transparent;
+    width: 130px;
+    margin-left: 15px;
+    text-decoration: underline;
+    border: none;
+    font-weight: bold;
+       
+}
+
+#contacto:hover{
+    color: grey;
+    text-decoration: none;
+}
+
+.arrow{
+    margin-left: 6px;
+}
+
+p{
+    margin-bottom: 5px;
+}
+
+.primera{
+    text-align: center;
+}
+
+.sobremi, .servicios, .educacion, .porfolio {
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    padding-top: 50px;
+    width: 100vw;
+    height: auto;
+   
+}
+.color{
+    display: inline-block;
+    background-color:#dbdb56 ;
+}
+h3{
+    font-size: 1.5em;
+}
+
+.experiencia{
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+    height: auto;
+    margin-top: 25px;
+    font-weight: 300px;
+    
+}
+
+.parrafo{
+    
+    width: 800px;
+    text-align: left;
+    font-weight: 595;
+       
+}
+
+h2{
+    font-weight: 550;
+    margin-bottom: 10px;
+}
+
+.nombre{
+    font-weight: bold;
+}
+.expe{
+    font-weight: bold;
+}
+
+.num1{
+    
+        display: inline-block;
+        border-radius:     50%;
+        width: 60px;
+        height: 60px;
+        background-color:#dbdb56 ;
+     
+           
+}
+
+.num{
+    margin-right: 100px;
+}
+
+.numero{
+    font-size: 3.5em;
+   }
+
+.datos{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+    width: 90vw;
+}
+
+.date{
+    font-weight: bold;
+}
+
+label{
+    font-weight: 100;
+}
+
+.grid1{
+    display: grid;
+    width: 95vw;
+    height: 60vh;
+    grid-template-columns:repeat(3, 1fr) ;
+    grid-template-rows: repeat(3, 1fr);
+    margin: 20px;
+    justify-items: center;
+     grid-column-gap: 25px;
+    grid-row-gap: 35px;
+    padding: 25px;
+    text-align: center;   
+   }
+
+.icon{
+    font-size: 2em;
+    margin-bottom: 5px;
+    color:#dbdb56;
+}
+
+.padre{
+    display: flex;
+    width: 90vw;
+    height: auto;
+    margin: auto;
+    
+}
+
+.bordeleft{
+    border-left: solid 4px #dbdb56; 
+    margin-right: 15px;
+    padding: 15px;
+}
+
+.progreso{
+
+    display: flex;
+    width: 90vw;
+    height: auto;
+    justify-content: space-around;
+    
+}
+
+.rango{
+    color: #dbdb56;
+    width: 70px;
+}
+
+
+.cv{
+    width: 100vw;
+     padding: 10px;
+     text-align: center;
+    
+}
+
+.boton{
+    padding: 10px;
+    color: black;
+    background-color: #dbdb56;
+    border: none;
+    font-weight: bold;
+    border-radius: 3px;
+}
+
+.boton:hover{
+        
+    color: grey;
+    border-radius: 10px;
+    text-decoration: underline;
+}
+
+
+
+.grid2{
+   
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        grid-auto-rows: minmax(200px, auto);
+        gap: 20px;
+        padding: 20px;
+        grid-auto-flow: dense;
+        margin-top: 50px;
+         
+    
+}
+
+.grid2 .contenedor{
+    display: flex;
+    background: url(https://paginasweb.mx/pub/uploads/blog/Que-ventajas-ofrece-una-pagina-web-para-ofrecer-nuestros-servicios.jpg);
+    justify-self: stretch;
+    background-size: cover;
+       
+}
+
+.grid2 .contenedor:hover{
+    border-radius: 10px;
+    border: 3px solid #dbdb56;
+}
+ 
+.encontacto{
+    display: flex;
+    width: 100vw;
+    height: auto;
+    background-color: #dbdb56;
+    justify-content: space-around;
+    padding: 25px;
+
+}
+    
+.hola{
+    background: transparent;
+    border: none;
+    border-bottom: solid 1px black;
+}
+    
+.submit{
+
+    background-color: gray;
+    color: white;
+    padding: 7px;
+    width: 100px;
+    border: none;
+} 
+
+.submit:hover{
+    color: grey;
+    background-color: beige;
+    border-radius: 5px;
+    text-decoration:underline;
+}
+
+footer{
+    
+    width: 100vw;
+    height: 20vh;
+    background: grey;
+    color: white;
+    text-align: center;
+    padding-top: 25px;
+    font-weight: 700;
+}
+
+.nombre{
+    color: #dbdb56;
+}
+
+    
+.boton-menu{
+    margin-right: 30px;
+    font-size: 35px;
+    color: black;
+    cursor: pointer;
+    display: none;
+
+}
+
+.noche{
+    margin-right: 50px;
+    cursor: pointer;
+}
+
+ @media (max-width:768px){
+
+    nav ul li{
+        display: flex;
+        margin-left: 15px;
+        font-size: 0.7em;
+        height: max-content;
+        margin-top: 10px;
+        align-items: center;
+
+    }
+
+    nav{
+        display: flex;
+        background: white;
+        height: 25px;
+        width: 105vw;
+        justify-content: space-between;
+        align-items: center;
+        
+
+}
+
+.items{
+    display: flex;
+    flex-direction: column;
+    background-color: grey;
+    position: fixed;
+    align-items: center;
+    top: 25px;
+    width: 105vw;
+    align-content: center;
+    padding: 10px 0;
+
+    left: 100%;
+    transition: left, 01s;
+
+}
+
+
+.nombre-nav{
+    font-size: 0.8em;
+    max-width: max-content;
+    display: flex;
+    margin-left: 25px;
+}
+.iconos{
+
+    display: flex;
+    margin-right: 25px;
+    font-size: 0.6em;
+    
+   }
+
+   .boton-menu{
+    margin: 100px;
+    font-size: 0.6em;
+    color: black;
+    cursor: pointer;
+  
+}
+.header{
+    display: block;
+    width: 105vw;
+    height: 100%;
+    margin-left: 0px;
+    
+   }
+
+   .foto, .developer {
+    margin: auto;
+    margin-top: 15px;
+    text-align: center;
+   }
+  
+    h1{
+    font-size: 2em;
+    margin-left: 200px;
+    margin: auto;
+   }
+
+   #trabajos, #contactos{
+    width: 110px;
+    padding: 3px;
+   }
+
+   .foto{
+    width: 200px;
+    height: 200px;
+   }
+   #text{
+    text-align: center;
+   }
+
+   
+.sobremi, .servicios, .educacion, .porfolio {
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 80px;
+    font-size: 0.8em;
+}
+   
+.experiencia{
+    display: block;
+    font-size: 0.8em;
+    
+   
+}
+
+.num{
+    margin: auto;
+    margin-top: 20px;
+}
+
+.datos, .grid1, .padre, .progress, .progreso{
+    display: block;
+    text-align: center;
+    height: 100%;
+    font-size: 0.8em;
+}
+
+.parrafo{
+    padding: 8px;
+}
+
+.boton{
+    width: 105px;
+    margin-top: 15px;
+    padding: 3px;
+    margin-right: 10px;
+}
+
+.hablame, .encontacto{
+    display: block;
+    font-size: 0.8em;
+    margin-left: 5px;
+    
+}
+.footer{
+    font-size: 0.8em;
+    text-align:center;
+    margin-left: 10px;
+
+}
+
+#menu{
+    position: fixed;
+    margin-top: 0;
+    margin-left: 0;
+    z-index: 1000;
+
+
+
+
+
+}
+.grid2 .contenedor{
+    width: 60vw;
+    margin-left: 60px;
+  
+}
+
+.boton-menu{
+    display: block;
+}
+
+.items_visible{
+    left: 0;
+}
+   
+
+ }
+
+
+    
+   
+
+
+
+
+
