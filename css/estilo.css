@@ -44,9 +44,10 @@ nav ul li{
   color: black !important;
  
 }
-#icons{
-    color: black;
+#icons, #item{
+    color: black !important;
 }
+
 
 .redes{
     margin: 8px;
